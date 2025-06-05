@@ -71,11 +71,11 @@ div.autocomplete-deluxe-container input.autocomplete-deluxe-form {
   .paragraphs-add-dialog--categorized
   .paragraphs-button--add-more:not(:focus):hover,
 .ui-dialog.ui-dialog-off-canvas.paragraphs-ee-off-canvas--browser
-  #drupal-off-canvas
+  #drupal-off-canvas-wrapper
   .paragraphs-add-dialog--categorized
   .paragraphs-button--add-more:hover,
 .ui-dialog.ui-dialog-off-canvas.paragraphs-ee-off-canvas--browser
-  #drupal-off-canvas
+  #drupal-off-canvas-wrapper
   .paragraphs-add-dialog--categorized
   .paragraphs-button--add-more:not(:focus):hover {
   background: none;
@@ -83,7 +83,7 @@ div.autocomplete-deluxe-container input.autocomplete-deluxe-form {
 
 .js .paragraphs-add-dialog--categorized .paragraphs-button--icon,
 .ui-dialog.ui-dialog-off-canvas.paragraphs-ee-off-canvas--browser
-  #drupal-off-canvas
+  #drupal-off-canvas-wrapper
   .paragraphs-add-dialog--categorized
   .paragraphs-button--icon {
   background-size: contain;
@@ -257,7 +257,7 @@ div.autocomplete-deluxe-container input.autocomplete-deluxe-form {
 
 /* layout builder configure block button sticky fix */
 
-.ui-dialog-position-side #drupal-off-canvas .paragraphs-actions {
+.ui-dialog-position-side #drupal-off-canvas-wrapper .paragraphs-actions {
   position: static;
   right: 0;
   top: 10px;
@@ -416,16 +416,16 @@ div:not(:has(*)) {
 }
 
 /* ui image media */
-#drupal-off-canvas .field--name-field-media details {
+#drupal-off-canvas-wrapper .field--name-field-media details {
   padding: 0;
 }
 
-#drupal-off-canvas .field--name-field-media details summary {
+#drupal-off-canvas-wrapper .field--name-field-media details summary {
   list-style-type: none;
   margin: 10px 0;
 }
 
-.ui-dialog-position-side #drupal-off-canvas table {
+.ui-dialog-position-side #drupal-off-canvas-wrapper table {
   margin-bottom: 20px;
 }
 
